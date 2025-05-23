@@ -1,0 +1,12 @@
+<person id='1'>
+    <name>Giannis</name>
+    <address>Athens</address>
+</person>
+<person id='1_2'>
+    <name>Maria</name>
+    <address>Chicago</address>
+</person>
+<person id='1_3'>
+    <name>Angela</name>
+    <address>Brazil</address>
+</person>

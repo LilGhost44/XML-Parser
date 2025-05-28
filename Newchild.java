@@ -1,6 +1,5 @@
-public class write extends XMLParserCLI{
-
-    public static void writeRecord(String name, String address, String id) {
+public class Newchild extends XMLParserCLI{
+    public static void newchildAdd(String id){
         int counter=1;
        // int counterNull=1;
 
@@ -19,7 +18,9 @@ public class write extends XMLParserCLI{
                 counter++;
             }
         }
-        records.add(new Record(name, address,id));
+
+
+        records.add(new Record(null, null,id));
         System.out.println("Record added.");
     }
 }

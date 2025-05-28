@@ -1,7 +1,3 @@
-<person id='1'>
-    <name>Giannis</name>
-    <address>Athens</address>
-</person>
 <person id='1_2'>
     <name>Maria</name>
     <address>Chicago</address>
@@ -10,3 +6,16 @@
     <name>Angela</name>
     <address>Brazil</address>
 </person>
+<person id='03'>
+    <name>Giorgos</name>
+    <address>Kalamata</address>
+</person>
+<person id='1_1'>
+    <name>Elena</name>
+    <address>Greece</address>
+</person>
+<person id='1'>
+    <name>null</name>
+    <address>null</address>
+</person>
+

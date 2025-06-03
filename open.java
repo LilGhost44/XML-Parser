@@ -33,11 +33,15 @@ public class open extends XMLParserCLI{
             } else if (line.startsWith("<address>") && line.endsWith("</address>")) {   //extract value for address
                 address = line.substring(9, line.length() - 10);
             } else if (line.equals("</person>")) {
-
-
+                if (name != null && address!= null && id!=null) {
+                    records.add(new Record(name,address,id));
                     name = null;    // end of file and set everything back to null
                     address = null;
                     id = null;
+                }
+
+
+
 
             }
         }

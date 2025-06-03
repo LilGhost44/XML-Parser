@@ -26,7 +26,17 @@ public class xpath extends XMLParserCLI{
             for (Record r : records) {
                 System.out.println(r.id); //print ids of all records
             }
-        } else {
+        } else if(query.equals("person@name")){
+            for (Record r : records) {
+                System.out.println(r.name); //print names of all records
+            }
+        } else if(query.equals("person@address")){
+            for (Record r : records) {
+                System.out.println(r.address); //print addresses of all records
+            }
+
+        }
+        else {
             System.out.println("Unsupported attribute query.");
         }
     }
@@ -38,6 +48,10 @@ public class xpath extends XMLParserCLI{
         } else if (query.equals("person/name")) {
             for (Record r : records) {
                 System.out.println(r.name);
+            }
+        } else if (query.equals("person/id")) {
+            for (Record r : records) {
+                System.out.println(r.id);
             }
         } else {
             System.out.println("Unsupported field query.");

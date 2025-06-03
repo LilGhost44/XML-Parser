@@ -1,3 +1,7 @@
+/*
+text function. We print the record based on id, according to its toString() method. Id: , name: ,address:
+ */
+
 public class text extends XMLParserCLI{
     public static void text(String id) {
         boolean flag=false;

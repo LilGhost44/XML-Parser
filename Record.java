@@ -1,9 +1,13 @@
+/*
+Record class. A file consists of a list of records.
+ */
+
 public class Record {
-    String name;
+    String name;      //attributes
     String id;
     String address;
 
-    Record(String name,String address,String id) {
+    Record(String name,String address,String id) {       //constructor
         this.name = name;
         this.id = id;
         this.address = address;
@@ -34,7 +38,7 @@ public class Record {
         this.address = address;
     }
 
-    @Override
+    @Override       //Visual representation
     public String toString() {
         return "Name: " + name + ", Address: " + address + ", ID: " + id;
     }

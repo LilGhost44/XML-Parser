@@ -1,4 +1,6 @@
-
+/*
+save function. Saves the changes in the record according to the xml structure.
+ */
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -9,7 +11,7 @@ public class save extends XMLParserCLI{
         BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 
        // writer.write("<people>\n");
-        for (Record r : records) {
+        for (Record r : records) {         //we parse the records list and write
             writer.write("<person id='"+r.id+"'>\n");
             writer.write("    <name>" + r.name + "</name>\n");
             writer.write("    <address>" + r.address + "</address>\n");

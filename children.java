@@ -1,3 +1,7 @@
+/*
+children class that outputs the children of a Record based on id
+ */
+
 public class children extends XMLParserCLI{
     public static void childrenID(String id) {
         boolean flag=false;

@@ -1,15 +1,19 @@
+/*
+help function. Prints available commands.
+ */
+
 public class help {
 
 
     public static void printHelp() {
         System.out.println("Commands:");
-        System.out.println("  open <filename>        - Load file (creates if doesn't exist)");
-        System.out.println("  close                  - Clear loaded records");
-        System.out.println("  save                   - Save current records to original file");
-        System.out.println("  saveas <filename>      - Save current records to new file");
-        System.out.println("  read                   - Show all loaded records");
-        System.out.println("  write <name> <address> - Add a new record");
-        System.out.println("  exit                   - Exit the program");
+        System.out.println("  open <filename>             - Load file (creates if doesn't exist)");
+        System.out.println("  close                       - Clear loaded records");
+        System.out.println("  save                        - Save current records to original file");
+        System.out.println("  saveas <filename>           - Save current records to new file");
+        System.out.println("  read                        - Show all loaded records");
+        System.out.println("  write <name> <address> <id> - Add a new record");
+        System.out.println("  exit                        - Exit the program");
 
         System.out.println("  Additional Commands:");
         System.out.println("  print                   - Load data from opened file");

@@ -1,3 +1,7 @@
+/*
+delete function. Parses the Record list and based on id removes the record from the list.
+ */
+
 public class delete extends XMLParserCLI{
     public static void delete(String id){
 
